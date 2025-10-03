@@ -1,0 +1,373 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<ns1:Mappings xmlns:ns1="http://ES.FS.WG.STAX.Components.StaxReferenceData" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Mapping>
+		<Category>SAM LLVR Result Codes</Category>
+		<CommonName>Calculation Incomplete. Exception during  processing</CommonName>
+		<STAXCode>00</STAXCode>
+	</Mapping>
+	<Mapping>
+		<Category>SAM LLVR Result Codes</Category>
+		<CommonName>Acceptable Debt  Allocation</CommonName>
+		<STAXCode>01</STAXCode>
+	</Mapping>
+	<Mapping>
+		<Category>SAM LLVR Result Codes</Category>
+		<CommonName>LV fully allocated. Unacceptable Debt Allocation</CommonName>
+		<STAXCode>02</STAXCode>
+	</Mapping>
+	<Mapping>
+		<Category>SAM LLVR Result Codes</Category>
+		<CommonName>LV partially allocated. Unacceptable Debt Allocation</CommonName>
+		<STAXCode>03</STAXCode>
+	</Mapping>
+	<Mapping>
+		<Category>SAM Status Codes</Category>
+		<CommonName>Completed</CommonName>
+		<SAMCode>03</SAMCode>
+		<LixiEnum>Application Settled</LixiEnum>
+	</Mapping>
+	<Mapping>
+		<Category>SAM Status Codes</Category>
+		<CommonName>Cancelled</CommonName>
+		<SAMCode>01</SAMCode>
+		<LixiEnum>Cancelled</LixiEnum>
+	</Mapping>
+	<Mapping>
+		<Category>Valuation Type</Category>
+		<CommonName>Contract Price</CommonName>
+		<SAMCode>01</SAMCode>
+		<STAXCode>01</STAXCode>
+	</Mapping>
+	<Mapping>
+		<Category>Valuation Type</Category>
+		<CommonName>Branch Manager Valuation</CommonName>
+		<SAMCode>02</SAMCode>
+		<STAXCode>02</STAXCode>
+	</Mapping>
+	<Mapping>
+		<Category>Valuation Type</Category>
+		<CommonName>Full Valuation</CommonName>
+		<SAMCode>03</SAMCode>
+		<STAXCode>03</STAXCode>
+	</Mapping>
+	<Mapping>
+		<Category>Valuation Type</Category>
+		<CommonName>Customer Estimate</CommonName>
+		<SAMCode>04</SAMCode>
+		<STAXCode>04</STAXCode>
+	</Mapping>
+	<Mapping>
+		<Category>Valuation Type</Category>
+		<CommonName>Electronic Assessment</CommonName>
+		<SAMCode>05</SAMCode>
+		<STAXCode>05</STAXCode>
+	</Mapping>
+	<Mapping>
+		<Category>Valuation Type</Category>
+		<CommonName>Restricted Assessment</CommonName>
+		<SAMCode>06</SAMCode>
+		<STAXCode>06</STAXCode>
+	</Mapping>
+	<Mapping>
+		<Category>Valuation Type</Category>
+		<CommonName>Desktop Assessment</CommonName>
+		<SAMCode>07</SAMCode>
+		<STAXCode>07</STAXCode>
+	</Mapping>
+	<Mapping>
+		<Category>Security Nature</Category>
+		<CommonName></CommonName>
+		<SAMCode>01</SAMCode>
+		<STAXCode>01</STAXCode>
+		<LixiEnum>Residential</LixiEnum>
+	</Mapping>
+	<Mapping>
+		<Category>Security Nature</Category>
+		<CommonName>Commercial</CommonName>
+		<SAMCode>02</SAMCode>
+		<STAXCode>02</STAXCode>
+		<LixiEnum>Other_Commercial</LixiEnum>
+	</Mapping>
+	<Mapping>
+		<Category>Security Nature</Category>
+		<CommonName>Industrial</CommonName>
+		<SAMCode>03</SAMCode>
+		<STAXCode>03</STAXCode>
+		<LixiEnum>Other_Industrial</LixiEnum>
+	</Mapping>
+	<Mapping>
+		<Category>Security Nature</Category>
+		<CommonName>Commercial</CommonName>
+		<SAMCode>04</SAMCode>
+		<STAXCode>04</STAXCode>
+		<LixiEnum>Residential Commercial</LixiEnum>
+	</Mapping>
+	<Mapping>
+		<Category>Security Nature</Category>
+		<CommonName>Commercial</CommonName>
+		<SAMCode>05</SAMCode>
+		<STAXCode>05</STAXCode>
+		<LixiEnum>Non Specialised Commercial</LixiEnum>
+	</Mapping>
+	<Mapping>
+		<Category>Security Nature</Category>
+		<CommonName>Industrial</CommonName>
+		<SAMCode>06</SAMCode>
+		<STAXCode>06</STAXCode>
+		<LixiEnum>Non Specialised Industrial</LixiEnum>
+	</Mapping>
+	<Mapping>
+		<Category>Security Nature</Category>
+		<CommonName>Rural</CommonName>
+		<SAMCode>07</SAMCode>
+		<STAXCode>07</STAXCode>
+		<LixiEnum>8 Hectares or Less</LixiEnum>
+	</Mapping>
+	<Mapping>
+		<Category>Security Nature</Category>
+		<CommonName>Rural</CommonName>
+		<SAMCode>08</SAMCode>
+		<STAXCode>08</STAXCode>
+		<LixiEnum>Over 40 Hectares</LixiEnum>
+	</Mapping>
+	<Mapping>
+		<Category>Security Nature</Category>
+		<CommonName>Rural</CommonName>
+		<SAMCode>09</SAMCode>
+		<STAXCode>09</STAXCode>
+		<LixiEnum>Over 8 Less than 40 Hectares</LixiEnum>
+	</Mapping>
+	<Mapping>
+		<Category>Security Occupancy</Category>
+		<CommonName>Occupancy</CommonName>
+		<SAMCode>01</SAMCode>
+		<STAXCode>01</STAXCode>
+		<LixiEnum>Owner Primary</LixiEnum>
+	</Mapping>
+	<Mapping>
+		<Category>Security Occupancy</Category>
+		<CommonName>Occupancy</CommonName>
+		<SAMCode>02</SAMCode>
+		<STAXCode>02</STAXCode>
+		<LixiEnum>Owner Secondary</LixiEnum>
+	</Mapping>
+	<Mapping>
+		<Category>Security Occupancy</Category>
+		<CommonName>Title</CommonName>
+		<SAMCode>03</SAMCode>
+		<STAXCode>03</STAXCode>
+		<LixiEnum>Non Owner</LixiEnum>
+	</Mapping>
+	<Mapping>
+		<Category>Ownership Type</Category>
+		<CommonName>Freehold</CommonName>
+		<SAMCode>01</SAMCode>
+		<STAXCode>01</STAXCode>
+		<LixiEnum>Freehold</LixiEnum>
+	</Mapping>
+	<Mapping>
+		<Category>Ownership Type</Category>
+		<CommonName>Freehold (Old System Title)</CommonName>
+		<!-- This is not a valid enum in Lixi, map it to Lixi as "Other Title"-->
+		<SAMCode>02</SAMCode>
+		<STAXCode>02</STAXCode>
+		<LixiEnum>Other Title</LixiEnum>
+	</Mapping>
+	<Mapping>
+		<Category>Ownership Type</Category>
+		<CommonName>Leasehold</CommonName>
+		<SAMCode>03</SAMCode>
+		<STAXCode>03</STAXCode>
+		<LixiEnum>Leasehold</LixiEnum>
+	</Mapping>
+	<Mapping>
+		<Category>Ownership Type</Category>
+		<CommonName>Building Units Plan</CommonName>
+		<SAMCode>04</SAMCode>
+		<STAXCode>04</STAXCode>
+		<LixiEnum>Unit Title</LixiEnum>
+	</Mapping>
+	<Mapping>
+		<Category>Ownership Type</Category>
+		<CommonName>Title</CommonName>
+		<SAMCode>05</SAMCode>
+		<STAXCode>05</STAXCode>
+		<LixiEnum>Group Titles Plan</LixiEnum>
+	</Mapping>
+	<Mapping>
+		<Category>Ownership Type</Category>
+		<CommonName>Group Titles Plan</CommonName>
+		<SAMCode>06</SAMCode>
+		<STAXCode>06</STAXCode>
+		<LixiEnum>Company Title</LixiEnum>
+	</Mapping>
+	<Mapping>
+		<Category>Ownership Type</Category>
+		<CommonName>Strata Title</CommonName>
+		<SAMCode>07</SAMCode>
+		<STAXCode>07</STAXCode>
+		<LixiEnum>Strata Title</LixiEnum>
+	</Mapping>
+	<Mapping>
+		<Category>Manner Held</Category>
+		<CommonName>Title</CommonName>
+		<SAMCode>01</SAMCode>
+		<STAXCode>01</STAXCode>
+		<LixiEnum>Joint Tenants</LixiEnum>
+	</Mapping>
+	<Mapping>
+		<Category>Manner Held</Category>
+		<CommonName>Title</CommonName>
+		<SAMCode>02</SAMCode>
+		<STAXCode>02</STAXCode>
+		<LixiEnum>Tennant Common in Equal Shares</LixiEnum>
+	</Mapping>
+	<Mapping>
+		<Category>Manner Held</Category>
+		<CommonName>Title</CommonName>
+		<SAMCode>03</SAMCode>
+		<STAXCode>03</STAXCode>
+		<LixiEnum>Sole</LixiEnum>
+	</Mapping>
+	<Mapping>
+		<Category>Manner Held</Category>
+		<CommonName>Title</CommonName>
+		<SAMCode>04</SAMCode>
+		<STAXCode>04</STAXCode>
+		<LixiEnum>Tennant Common in Shares of</LixiEnum>
+	</Mapping>
+	<Mapping>
+		<Category>Strata Plan Type</Category>
+		<CommonName>Title</CommonName>
+		<SAMCode>P</SAMCode>
+		<STAXCode>P</STAXCode>
+		<LixiEnum>Plan</LixiEnum>
+	</Mapping>
+	<Mapping>
+		<Category>Strata Plan Type</Category>
+		<CommonName>Title</CommonName>
+		<SAMCode>D</SAMCode>
+		<STAXCode>D</STAXCode>
+		<LixiEnum>Diagram</LixiEnum>
+	</Mapping>
+	<Mapping>
+		<Category>Strata Plan Type</Category>
+		<CommonName>Title</CommonName>
+		<SAMCode>S</SAMCode>
+		<STAXCode>S</STAXCode>
+		<LixiEnum>Strata Plan</LixiEnum>
+	</Mapping>
+	<Mapping>
+		<Category>Strata Plan Type</Category>
+		<CommonName>Title</CommonName>
+		<SAMCode>P</SAMCode>
+		<STAXCode>P</STAXCode>
+		<LixiEnum>Community Plan</LixiEnum>
+	</Mapping>
+	<Mapping>
+		<Category>Strata Plan Type</Category>
+		<CommonName>Title</CommonName>
+		<SAMCode>P</SAMCode>
+		<STAXCode>P</STAXCode>
+		<LixiEnum>Crown Plan</LixiEnum>
+	</Mapping>
+	<Mapping>
+		<Category>Strata Plan Type</Category>
+		<CommonName>Title</CommonName>
+		<SAMCode>P</SAMCode>
+		<STAXCode>P</STAXCode>
+		<LixiEnum>Deposited Plan</LixiEnum>
+	</Mapping>
+	<Mapping>
+		<Category>Strata Plan Type</Category>
+		<CommonName>Title</CommonName>
+		<SAMCode>P</SAMCode>
+		<STAXCode>P</STAXCode>
+		<LixiEnum>Registered Plan</LixiEnum>
+	</Mapping>
+	<Mapping>
+		<Category>Strata Plan Type</Category>
+		<CommonName>Title</CommonName>
+		<SAMCode>P</SAMCode>
+		<STAXCode>P</STAXCode>
+		<LixiEnum>Survey Plan</LixiEnum>
+	</Mapping>
+	<Mapping>
+		<Category>Strata Plan Type</Category>
+		<CommonName>Title</CommonName>
+		<SAMCode>S</SAMCode>
+		<STAXCode>S</STAXCode>
+		<LixiEnum>Survey Strata Plan</LixiEnum>
+	</Mapping>
+	<Mapping>
+		<Category>StateCd</Category>
+		<CommonName>Address</CommonName>
+		<SAMCode>01</SAMCode>
+		<STAXCode>ACT</STAXCode>
+		<LixiEnum>ACT</LixiEnum>
+	</Mapping>
+	<Mapping>
+		<Category>StateCd</Category>
+		<CommonName>Address</CommonName>
+		<SAMCode>02</SAMCode>
+		<STAXCode>NSW</STAXCode>
+		<LixiEnum>NSW</LixiEnum>
+	</Mapping>
+	<Mapping>
+		<Category>StateCd</Category>
+		<CommonName>Address</CommonName>
+		<SAMCode>03</SAMCode>
+		<STAXCode>NT</STAXCode>
+		<LixiEnum>NT</LixiEnum>
+	</Mapping>
+	<Mapping>
+		<Category>StateCd</Category>
+		<CommonName>Address</CommonName>
+		<SAMCode>04</SAMCode>
+		<STAXCode>QLD</STAXCode>
+		<LixiEnum>QLD</LixiEnum>
+	</Mapping>
+	<Mapping>
+		<Category>StateCd</Category>
+		<CommonName>Address</CommonName>
+		<SAMCode>05</SAMCode>
+		<STAXCode>SA</STAXCode>
+		<LixiEnum>SA</LixiEnum>
+	</Mapping>
+	<Mapping>
+		<Category>StateCd</Category>
+		<CommonName>Address</CommonName>
+		<SAMCode>06</SAMCode>
+		<STAXCode>TAS</STAXCode>
+		<LixiEnum>TAS</LixiEnum>
+	</Mapping>
+	<Mapping>
+		<Category>StateCd</Category>
+		<CommonName>Address</CommonName>
+		<SAMCode>07</SAMCode>
+		<STAXCode>VIC</STAXCode>
+		<LixiEnum>VIC</LixiEnum>
+	</Mapping>
+	<Mapping>
+		<Category>StateCd</Category>
+		<CommonName>Address</CommonName>
+		<SAMCode>08</SAMCode>
+		<STAXCode>WA</STAXCode>
+		<LixiEnum>WA</LixiEnum>
+	</Mapping>
+	<Mapping>
+		<Category>RegionToBFMapping</Category>
+		<CommonName>Full</CommonName>
+		<STAXCode>FULL</STAXCode>
+	</Mapping>
+	<Mapping>
+		<Category>RegionToBFMapping</Category>
+		<CommonName>Partial</CommonName>
+		<STAXCode>PAR</STAXCode>
+	</Mapping>
+	<Mapping>
+		<Category>RegionToBFMapping</Category>
+		<CommonName>RR</CommonName>
+		<STAXCode>RR</STAXCode>
+	</Mapping>
+</ns1:Mappings>
